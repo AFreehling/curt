@@ -1,8 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body
 {
-    background-image: url(/assets/desk_creative.jpg);
+    background-image: url(/assets/wood_grain_texture.jpg);
     background-repeat: no-repeat;
-    background-position:center center;
     background-size: cover;
 }
