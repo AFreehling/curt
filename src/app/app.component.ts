@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+
+  private background = require("../assets/desk_creative.jpg")
+  private blah =123;
 }
