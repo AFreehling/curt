@@ -1,0 +1,25 @@
+.navbar {
+    height: 130px;
+    background-color: rgba(88, 89, 91, .75);
+    margin-top: 0px !important;
+    /*opacity: .75;*/
+}
+
+.nav-link {
+    font-size: 35px;
+    color: white !important;
+    font-family: futura;
+}
+.navbar-nav > li {
+    padding-left: 80px;
+}
+
+.navbar-nav {
+    display:inline-block;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.navbar-brand {
+    margin-top: 13px;
+}
