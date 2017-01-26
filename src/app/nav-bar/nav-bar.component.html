@@ -1,0 +1,14 @@
+<nav class="navbar navbar-fixed-top">
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <a class="navbar-brand" href="#"><img [src] = "LOGO" width="300" alt=""></a>
+      <div> {{current_link}} </div>
+      <ul class="navbar-nav navbar-right">
+        <li class="nav-item ">
+          <button (click)='onSelect(link_1)' class="btn btn-link">{{link_1}}</button>
+        </li>
+        <li class="nav-item">
+          <button (click)='onSelect(link_2)' class="btn btn-link">{{link_2}}</button>
+        </li>
+      </ul>
+  </div>
+</nav>

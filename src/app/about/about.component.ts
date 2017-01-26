@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
 
 
 export class AboutComponent {
-        private LOGO = require("../assets/CFox_logo.jpg");
 }

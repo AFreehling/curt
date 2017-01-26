@@ -5,19 +5,27 @@ import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { AboutComponent } from './about.component';
-import { MainComponent } from './main.component';
+import { AboutComponent } from './about/about.component';
+import { MainComponent } from './main/main.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   { path: '', component: MainComponent },
-  { path: 'about',  component: AboutComponent }
+  { path: 'About',  component: AboutComponent },
+  { path: 'Projects',  component: ProjectsComponent },
+  { path: 'Contact',  component: ContactComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    MainComponent
+    MainComponent,
+    NavBarComponent,
+    ProjectsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

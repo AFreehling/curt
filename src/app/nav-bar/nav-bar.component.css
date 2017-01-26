@@ -1,14 +1,13 @@
 .navbar {
     height: 130px;
-    background-color: rgba(88, 89, 91, .75);
     margin-top: 0px !important;
-    /*opacity: .75;*/
+    border-bottom: 3px solid orangered;
 }
 
-.nav-link {
+.btn-link {
     font-size: 35px;
-    color: white !important;
     font-family: futura;
+    color: rgba(88, 89, 91, .75);
 }
 .navbar-nav > li {
     padding-left: 80px;

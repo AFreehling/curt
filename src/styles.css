@@ -6,3 +6,18 @@ body
     background-size: cover;
 }
 
+.main-tile {
+    /* Center the div */
+    position:absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 70%;
+    /* Style the div */
+    background-color: white;
+    opacity: .75;
+    box-shadow: 0 6px 20px 0 rgb(28, 30, 33);
+}
